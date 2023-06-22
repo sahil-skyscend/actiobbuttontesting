@@ -18,18 +18,6 @@
     'depends': [
         'website'
     ],
-    'data': [
-        'views/home_sky_website_template.xml',
-        'views/services_template.xml',
-        'views/training_template.xml',
-        'views/about_us_template.xml',
-        'views/contact_us_template.xml',
-
-    ],
-    'assets': {
-        'web.assets_frontend': [
-            # 'sky_website/static/src/scss/sky_website.scss',
-        ],
-    },
+    
     'installable': True,
 }
