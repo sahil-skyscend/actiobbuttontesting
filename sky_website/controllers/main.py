@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- encoding: utf-8 -*-
 #########################################################################################
 #
@@ -6,10 +5,8 @@
 #    Copyright (C) 2020 Skyscend Business Solutions  Pvt. Ltd.(<https://skyscendbs.com>)
 #
 #########################################################################################
-=======
 print("Testing Action Button")
 print('Testing Action Button')
->>>>>>> ac636ea9bb7a7484ebaa9bee73ab689c52b7909c
 
 from odoo import http, fields, tools
 from odoo.http import request
