@@ -18,7 +18,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install git+git://github.com/mozilla/elasticutils.git
 
       - name: execute py script # run main.py
         env:
