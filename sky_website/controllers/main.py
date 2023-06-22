@@ -1,8 +1,9 @@
-from odoo import http, fields, tools
+from odoo import http
 from odoo.http import request
 
 
 class SkyWebsite(http.Controller):
+
     @http.route(['/'], type='http', auth="public", website=True)
     def sky_home_website(self, **kwargs):
         """
