@@ -8,7 +8,7 @@
 print("Testing Action Button")
 print("Testing Action Button")
 
-from odoo import fields, http, tools
+from odoo import http
 from odoo.http import request
 
 
