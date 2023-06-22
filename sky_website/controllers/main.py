@@ -10,7 +10,7 @@ from odoo import http
 from odoo.http import request
 
 print("Testing Action Button")
-print("Testing Action Button")
+print("Testing Action Button add")
 
 
 class SkyWebsite(http.Controller):
