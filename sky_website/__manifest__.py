@@ -7,7 +7,7 @@
 #########################################################################################
 
 {
-    'name': 'Sky Website',
+ 'name': 'Sky Website',
     'version': '16.0.0.1',
     'license': 'AGPL-3',
     'description': """
@@ -18,6 +18,6 @@
     'depends': [
         'website'
     ],
-    
+
     'installable': True,
 }
