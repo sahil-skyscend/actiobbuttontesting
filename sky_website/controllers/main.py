@@ -13,7 +13,7 @@ from odoo.http import request
 
 
 class SkyWebsite(http.Controller):
-    @http.route(['/'], type="http", auth="public", website=True)
+    @http.route(["/"], type="http", auth="public", website=True)
     def sky_home_website(self, **kwargs):
         """
         This method will be used to display sky website
