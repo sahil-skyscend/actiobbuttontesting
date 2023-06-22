@@ -28,7 +28,7 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            'sky_website/static/src/scss/sky_website.scss',
+            # 'sky_website/static/src/scss/sky_website.scss',
         ],
     },
     'installable': True,
