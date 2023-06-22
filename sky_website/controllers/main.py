@@ -5,11 +5,12 @@
 #    Copyright (C) 2020 Skyscend Business Solutions  Pvt. Ltd.(<https://skyscendbs.com>)
 #
 #########################################################################################
-print("Testing Action Button")
-print("Testing Action Button")
 
 from odoo import http
 from odoo.http import request
+
+print("Testing Action Button")
+print("Testing Action Button")
 
 
 class SkyWebsite(http.Controller):
