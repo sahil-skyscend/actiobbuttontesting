@@ -14,10 +14,10 @@ jobs:
           python-version: '3.9'
       - name: Install necessary Python packages
         run: pip install pandas jupyter lxml playwright beautifulsoup4 requests
-      - name: Run the scraping script 1
+      - name: Run the python script 1
         run: python pytest.py
         
-      - name: Run the scraping script 2
+      - name: Run the python script 2
         run: python main.py
         
       - name: Commit and push if content changed
