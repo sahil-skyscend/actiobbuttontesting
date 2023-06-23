@@ -12,7 +12,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      
+      - name: Install necessary Python packages
+        run: pip install pandas jupyter lxml playwright beautifulsoup4 requests
       - name: Run the python script 1
         run: python pytest.py
         
